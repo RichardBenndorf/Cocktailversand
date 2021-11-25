@@ -82,7 +82,12 @@ Beispiel
 [%header, cols="1,3,3"]
 |===
 |Name|	Beschreibung	| Verantwortlichkeiten
-|[Benennung des Stakeholder-Typs.]	|[Kurze Beschreibung des Stakeholders.]	|[Fassen Sie die wesentlichen Verantwortlichkeiten des Stakeholder mit Bezug auf das zu entwickelnde System kurz zusammen, d.h. ihr besonderen Interessen. Beispiele: Dieser Stakeholder sorgt dafür, dass das System gewartet wird / dass die angezeigten Daten aktuell sind / überwacht den Projektfortschritt / usw.]
+|Barbetreiber |Eigentümer der Bar	| Auftraggeber stellt Anforderungen an den online-Shop
+|Privatkunden | Kunden die für Partys oder Geschenke bestellen | Es darf nivht für gewerbliche Zwecke eingekauft werden
+|Angestellte | | 
+|Gesetzgeber | |
+|Zahlungsdienstleister | | 
+|Versanddienstleister | |
 |===
 
 === Benutzerumgebung
