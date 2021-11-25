@@ -10,8 +10,35 @@ include::../_includes/default-attributes.inc.adoc[]
 
 == Identifizierte Use Cases
 // Liste aller identifizierten Use Cases (priorisiert)
-* *UC01*: ...
-* *UC02*: ...
+* *Kunde*:
+** Bestellung aufgeben (Lieferadresse, Rechnungsadresse)
+*** Zahlung abwickeln 
+** Bestellung anzeigen
+*** Bestellung stonieren
+*** Bestellung bearbeiten/ändern
+** Produkte anzeigen
+** Produkt bewerten
+** Produktseite aufrufen
+*** PRodukt zu Warenkorb hinzufügen
+** Cocktail konfigurieren
+** Kundenkonto erstellen
+** Kundenprofil bearbeiten
+*** Kundenkonto anmelden
+*** Kundenprofil bearbeiten
+*** Newsletter anmelden/abmelden
+*** Passwort vergessen
+
+* *Barbetreiber UC01*
+** Bestellung einsehen
+*** Besstellung filtern
+*** benötigte Zutaten auflisten
+** Bestellstatus/Bearbeitungsstatus festlegen 
+** Internen Bereich anmelden
+** Produkte anzeigen
+** Produktkatalog bearbeiten 
+** Produkt deaktivieren
+** Angebot erstellen
+** Newsletter senden
 
 == Use Case Diagramm
 // ...
