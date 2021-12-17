@@ -15,14 +15,29 @@ In diesem Dokument werden die systemweiten Anforderungen für das Projekt <Thema
 NOTE: Die funktionalen Anforderungen, die sich aus der Interaktion von Nutzern mit dem System ergeben, sind als Use Cases in einem separaten Dokument festgehalten. [hier ggf. Verweis einfügen]
 
 == Systemweite funktionale Anforderungen
-//Angabe von system-weiten funktionalen Anforderungen, die nicht als Use Cases ausgedrückt werden können. Beispiele sind Drucken, Berichte, Authentifizierung, Änderungsverfolgung (Auditing), zeitgesteuerte Aktivitäten (Scheduling), Sicherheit / Maßnahmen zum Datenschutz
+* SWFA1: Volljährigkeitsprüfung
+** Test: System muss verhindern, dass Minderjähriger Bestellung aufgibt
+//** durch Eingabe der ID des Personalausweises prüfen ob nutzer über 16 bzw. 18 ist 
+* SWAF2: System muss in Lage sein Informationen in einer druckoptimierten Ansicht darstellen
+** Druckansicht (Rechnung, Lieferschein)
+** vorhandene Daten drucken, auf qualität prüfen (vollständig, geeignetes Layout)
+//* SWAF3: Berichterstattung über Anzahl der Verkäufe (reporting)
+//** Die Anzahl der Verkäufe und die damit einhergehenden Umsätze bzw. Gewinne sind für das Finanzamz relevant
+* SWAF4: System muss in der Lage sein personenbezogene Daten vor Missbrauch zu schützen (security)
+** Person soll versuchen Daten zu bekommen
+
 
 == Qualitätsanforderungen für das Gesamtsystem
 //Qualitätsanforderungen repräsentieren das "URPS" im FURPS+ zu Klassifikation von Anforderungen
 
 === Benutzbarkeit (Usability)
-//Beschreiben Sie Anforderungen für Eigenschaften wie einfache Bedienung, einfaches Erlernen, Standards für die Benutzerfreundlichkeit, Lokalisierung (landesspezifische Anpassungen von Sprache, Datumsformaten, Währungen usw.)
-
+* SWAU1: Neukunde muss schnell und einfach lernen, wie das System funktioniert (ease of learning)
+** 
+* SWAU1.1: System muss anderen Bestellprogrammen ähnlich sein (gleiche Anordnungen, Bezeichnungen)
+//** durch genaue Beschreibungen und einem tutorial in Form eines YouTube Videos 
+* SWAU2: Sucheingaben der Nutzer werden durch Vorschläge unterstützt
+//** unterstützende Suche (Vorschlag von Optionen oder Produkten(wie bei Word))
+//** weiterführende Links
 === Zuverlässigkeit (Reliability)
 // Zuverlässigkeit beinhaltet die Fähigkeit des Produkts und/oder des Systems unter Stress und ungünstigen Bedingungen am laufen zu bleiben. Spezifizieren Sie Anforderungen für zuverlässige Akzeptanzstufen, und wie diese gemessen und evaluiert werden. Vorgeschlagene Themen sind Verfügbarkeit, Häufigkeit und Schwere von Fehlern und Wiederherstellbarkeit.
 
