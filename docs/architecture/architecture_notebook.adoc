@@ -22,7 +22,18 @@ Dieses Dokument beschreibt die Philosophie, Entscheidungen, Nebenbedingungen, Be
 //[List the assumptions and dependencies that drive architectural decisions. This could include sensitive or critical areas, dependencies on legacy interfaces, the skill and experience of the team, the availability of important resources, and so forth]
 
 == Architektur-relevante Anforderungen
-//Fügen Sie eine Referenz / Link zu den Anforderungen ein, die implementiert werden müssen, um die Architektur zu erzeugen.
+* SWFA-1: Das System muss alle Cocktail-, Bestell- und Kundendaten persistent speichern
+* SWFA-2: Das System muss sicherstellen, dass nur der jeweilige Kunde die Berechtigung hat,
+seine Daten einsehen und bearbeiten zu können.
+* SWFA-3: Das System muss die korrekten und vollständigen Daten zu der Bestellung, wie z. B.
+die Zutaten und Menge zu erfassen
+* NFAU-5: Der Kunde sollte maximal 10 Klicks bis zur Bestellaufgabe, maximal 5 Klicks bei
+Standardcocktails benötigen.
+* NFAP-1: Das Softwaresystem soll einen Wechsel von Website zu Website in maximal 3
+Sekunden ermöglichen.
+* NFAS-1 Das System soll in der Lage sein, neue Sprachen integrieren zu können.
+
+
 
 
 == Entscheidungen, Nebenbedingungen und Begründungen
@@ -34,6 +45,31 @@ Dieses Dokument beschreibt die Philosophie, Entscheidungen, Nebenbedingungen, Be
 
 
 == Architekturmechanismen
+
+1. Security SWAF2. (analyse zustand)
+Designzustände:
+* Nutzername Passwort 
+* IP-Filter
+* Link in Mail der Bestellbestätigung 
+
+2. Localization / Internationalization NFAS-1
+framework wählen
+Oberflächen/Inhaltssprache 
+
+3. SWFA-1 Resource Management
+
+
+4. SWFA-1 Memory Management
+
+5. SWAF-1 Persistence
+
+6. Information Exchange use-case Bestellabwicklung
+
+
+
+
+
+
 https://www2.htw-dresden.de/~anke/openup/core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html[Doku "Concept: Architectural Mechanism"]
 //[List the architectural mechanisms and describe the current state of each one. Initially, each mechanism may be only name and a brief description. They will evolve until the mechanism is a collaboration or pattern that can be directly applied to some aspect of the design.]
 
@@ -41,7 +77,7 @@ https://www2.htw-dresden.de/~anke/openup/core.tech.common.extend_supp/guidances/
 
 //Beschreiben Sie den Zweck, Eigenschaften und Funktion der Architekturmechanismen.
 
-. Architekturmechanismus 1
+
 
 . Architekturmechanismus 2
 
